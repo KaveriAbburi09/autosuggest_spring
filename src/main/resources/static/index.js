@@ -1,0 +1,1 @@
+alert("Boot Camp is going very successfullyy!!")

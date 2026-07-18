@@ -1,6 +1,6 @@
 body{
     margin: 2px;
-    background-color: rgb(158, 107, 194);
+    background-color: rgb(167, 167, 167);
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
     border-color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
-    background-color: rgb(145, 60, 138);
+    background-color: rgb(148, 148, 148);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -24,12 +24,12 @@ h1 {
     font-size:20px;
 }
 .navbar a:hover{
-    color:rgb(182, 124, 175);
-    background-color:rgb(155, 89, 162);
+    color:rgb(190, 190, 190);
+    background-color:rgb(202, 200, 200);
 
 }
 .card{
-    border: 1px solid rgb(146, 57, 131);
+    border: 1px solid rgb(185, 185, 185);
     width: 350px;
     border-radius: 30px;
     text-align: center;
@@ -39,7 +39,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
-    background-color: rgb(166, 105, 154);
+    background-color: rgb(182, 182, 182);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 

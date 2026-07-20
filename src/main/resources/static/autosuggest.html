@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+         text-align: center;
+       }
+       .gear{
+        position: fixed;
+        top: 20px;
+        left: 20px;
+       }
+       .pill{
+        position: fixed;
+        top: 20px;
+        right: 20px;
+       }
+       .logo{
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 100px;
+       }
+       .tag{
+        font-size: 20px;
+        color: gray;
+       }
+       .being{
+        color: blue;
+       }
+       .search_box{
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:10px;
+        padding-right:30px;
+
+        border-radius: 20px;
+        width:70%;
+       }
+       .search_suggestions{
+        width:70%;
+        margin:0 auto;
+        text-align:left;
+        border:1px solid gray;
+        border-radius: 10px;
+        padding:10px;
+       }
+       .suggestion{
+       padding: 10px 14px;
+            border-bottom: 1px solid #f2f2f2;
+            font-size: 14px;
+       }
+    </style>
+</head>
+<body>
+    <span class="gear">&#x2699;</span>
+    <span class="pill">&#x2022; online | &#x1F552; -ms </span>
+    <h1 class="logo">
+        <span class="being">Being </span>  Infinity  &infin; </h1>
+    <p class="tag">One million phrases.Four algorithms.Prefix Based Auto Suggest</p>
+   
+    <input class="search_box"type="text" placeholder="&#128269;Start typing to search..." >
+    <div class="search_suggestions">
+        <!-- <div class="suggestion" cyber security>Cyber Security</div> -->
+        <!-- <br> -->
+        <!-- <div class="suggestion" artificial intelligence and data science> Artificial Intelligence and Data Science</div> -->
+    </div>
+    <script>
+        function getsearchsuggestions(){
+            var searchbox = document.getElementsByClassName("search_box");
+            var searchsuggestions = document.getElementsByClassName("search_suggestions");
+            var userinput = searchbox.value;
+            if(userinput.trim()=="")
+        }
+    </script>
+    
+</body>
+</html>
